@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - My E-Commerce Store</title>
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+  <header>
+    <h1>My Cart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="wishlist.html">Wishlist ❤️ (<span id="wishlist-count">0</span>)</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Products in Cart</h2>
+    <div id="cart-list" class="product-grid"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const cartList = document.getElementById("cart-list");
+    const wishlistCount = document.getElementById("wishlist-count");
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+
+    function updateWishlistCount() {
+      wishlistCount.textContent = wishlist.length;
+    }
+
+    function saveCart() {
+      localStorage.setItem("cart", JSON.stringify(cart));
+      renderCart();
+    }
+
+    function removeFromCart(id) {
+      cart = cart.filter(p => p.id !== id);
+      saveCart();
+    }
+
+    function renderCart() {
+      cartList.innerHTML = "";
+      if(cart.length === 0){
+        cartList.innerHTML = "<p>Your cart is empty.</p>";
+        return;
+      }
+      cart.forEach(product => {
+        const card = document.createElement("div");
+        card.className = "product-card";
+        card.innerHTML = `
+          <img src="${product.image}" alt="${product.name}" loading="lazy"
+               onerror="this.onerror=null;this.src='https://picsum.photos/300/300?random=${product.id}'">
+          <h3>${product.name}</h3>
+          <p class="price">$${product.price}</p>
+          <button onclick="removeFromCart(${product.id})">Remove</button>
+          <button onclick="location.href='checkout.html'">Checkout</button>
+        `;
+        cartList.appendChild(card);
+      });
+    }
+
+    renderCart();
+    updateWishlistCount();
+  </script>
+</body>
+</html>

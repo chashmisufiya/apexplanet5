@@ -1,0 +1,809 @@
+[
+  {
+    "name": "4K Smart LED TV",
+    "price": 45000,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "A 4K Ultra HD Smart LED TV with vibrant display and smart apps.",
+    "image": "images/4K Smart LED TV .jpg"
+  },
+  {
+    "name": "Action Camera 4K",
+    "price": 12000,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Compact 4K action camera with waterproof casing.",
+    "image": "images/Action Camera 4K.jpg"
+  },
+  {
+    "name": "Action Figure Heros",
+    "price": 800,
+    "rating": 4.2,
+    "category": "Toys",
+    "description": "Superhero action figures for kids and collectors.",
+    "image": "images/Action Figure Heros.jpg"
+  },
+  {
+    "name": "Air Fryer XL",
+    "price": 6000,
+    "rating": 4.3,
+    "category": "Home Appliances",
+    "description": "Extra-large air fryer for healthy oil-free cooking.",
+    "image": "images/Air Fryer XL.jpg"
+  },
+  {
+    "name": "Badminton Racket",
+    "price": 1500,
+    "rating": 4.1,
+    "category": "Sports",
+    "description": "Lightweight badminton racket for professional and casual play.",
+    "image": "images/Badminton Racket.jpg"
+  },
+  {
+    "name": "Barbie Doll Set",
+    "price": 1200,
+    "rating": 4.4,
+    "category": "Toys",
+    "description": "Barbie doll playset with stylish clothes and accessories.",
+    "image": "images/barbie doll set.jpg"
+  },
+  {
+    "name": "Basmati Rice 5kg",
+    "price": 650,
+    "rating": 4.6,
+    "category": "Groceries",
+    "description": "Premium quality long-grain basmati rice, 5kg pack.",
+    "image": "images/Basmati Rice 5kg.jpg"
+  },
+  {
+    "name": "Beard Trimmer",
+    "price": 1800,
+    "rating": 4.3,
+    "category": "Personal Care",
+    "description": "Rechargeable beard trimmer with multiple length settings.",
+    "image": "images/Beard Trimmer.jpg"
+  },
+  {
+    "name": "Bicycle Helmet",
+    "price": 900,
+    "rating": 4.4,
+    "category": "Sports",
+    "description": "Durable and lightweight bicycle helmet with ventilation.",
+    "image": "images/Bicycle Helmet.jpg"
+  },
+  {
+    "name": "Camping Tent 2-Person",
+    "price": 4000,
+    "rating": 4.5,
+    "category": "Outdoor",
+    "description": "Compact and waterproof 2-person camping tent.",
+    "image": "images/Camping Tent 2-Person.jpg"
+  },
+  {
+    "name": "Casual Sneakers",
+    "price": 2000,
+    "rating": 4.2,
+    "category": "Fashion",
+    "description": "Comfortable and stylish sneakers for everyday wear.",
+    "image": "images/Casual Sneakers.jpg"
+  },
+  {
+    "name": "Ceiling Fan",
+    "price": 2200,
+    "rating": 4.3,
+    "category": "Home Appliances",
+    "description": "Energy efficient ceiling fan with powerful airflow.",
+    "image": "images/ceiling fan.jpg"
+  },
+  {
+    "name": "Ceramic Flower Vase",
+    "price": 700,
+    "rating": 4.1,
+    "category": "Home Decor",
+    "description": "Elegant ceramic flower vase for home decoration.",
+    "image": "images/Ceramic Flower Vase.jpg"
+  },
+  {
+    "name": "Children Story Books",
+    "price": 450,
+    "rating": 4.5,
+    "category": "Books",
+    "description": "Colorful story books for children with illustrations.",
+    "image": "images/children story books.jpg"
+  },
+  {
+    "name": "Coffee Maker Machine",
+    "price": 3500,
+    "rating": 4.4,
+    "category": "Home Appliances",
+    "description": "Automatic coffee maker machine for quick brewing.",
+    "image": "images/coffee maker machine.jpg"
+  },
+  {
+    "name": "Compact Powder",
+    "price": 300,
+    "rating": 4.2,
+    "category": "Cosmetics",
+    "description": "Smooth finish compact powder for everyday use.",
+    "image": "images/Compact Powder.jpg"
+  },
+  {
+    "name": "Cotton T-Shirt",
+    "price": 500,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "100% cotton t-shirt for casual wear.",
+    "image": "images/Cotton T-Shirt.jpg"
+  },
+  {
+    "name": "Cricket Bat English Willow",
+    "price": 4500,
+    "rating": 4.5,
+    "category": "Sports",
+    "description": "Professional English willow cricket bat.",
+    "image": "images/Cricket Bat English Willow.jpg"
+  },
+  {
+    "name": "Dark Chocolate Pack",
+    "price": 250,
+    "rating": 4.6,
+    "category": "Groceries",
+    "description": "Rich dark chocolate pack with 70% cocoa.",
+    "image": "images/dark chocolate pack.jpg"
+  },
+  {
+    "name": "Designer Saree",
+    "price": 3500,
+    "rating": 4.4,
+    "category": "Fashion",
+    "description": "Elegant designer saree with embroidery.",
+    "image": "images/designer saree.jpg"
+  },
+  {
+    "name": "Desk Organizer",
+    "price": 750,
+    "rating": 4.3,
+    "category": "Office Supplies",
+    "description": "Wooden desk organizer with multiple compartments.",
+    "image": "images/Desk Organizer.jpg"
+  },
+  {
+    "name": "Diamond Ring",
+    "price": 65000,
+    "rating": 4.7,
+    "category": "Jewelry",
+    "description": "Elegant diamond ring crafted in 18k gold.",
+    "image": "images/Diamond Ring.jpg"
+  },
+  {
+    "name": "Diary with Lock",
+    "price": 400,
+    "rating": 4.2,
+    "category": "Stationery",
+    "description": "Personal diary with lock for privacy.",
+    "image": "images/diary with lock.jpg"
+  },
+  {
+    "name": "Dinner Set (24 Pieces)",
+    "price": 2800,
+    "rating": 4.5,
+    "category": "Home & Kitchen",
+    "description": "24-piece dinner set made of fine porcelain.",
+    "image": "images/Dinner Set (24 Pieces).jpg"
+  },
+  {
+    "name": "Drawing Sketchbook",
+    "price": 250,
+    "rating": 4.4,
+    "category": "Stationery",
+    "description": "High-quality sketchbook for drawing and sketching.",
+    "image": "images/Drawing Sketchbook.jpg"
+  },
+  {
+    "name": "Drone with 4K Camera",
+    "price": 25000,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "High-performance drone with 4K ultra HD camera.",
+    "image": "images/Drone with 4K Camera.jpg"
+  },
+  {
+    "name": "DSLR Camera 24MP",
+    "price": 42000,
+    "rating": 4.7,
+    "category": "Electronics",
+    "description": "24MP DSLR camera with interchangeable lenses.",
+    "image": "images/DSLR Camera 24MP.jpg"
+  },
+  {
+    "name": "Educational Laptop Toy",
+    "price": 1200,
+    "rating": 4.2,
+    "category": "Toys",
+    "description": "Interactive educational laptop toy for kids.",
+    "image": "images/Educational Laptop Toy.jpg"
+  },
+  {
+    "name": "Electric Rice Cooker",
+    "price": 2200,
+    "rating": 4.3,
+    "category": "Home Appliances",
+    "description": "Electric rice cooker with auto shut-off feature.",
+    "image": "images/Electric Rice Cooker.jpg"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "price": 1500,
+    "rating": 4.4,
+    "category": "Personal Care",
+    "description": "Rechargeable electric toothbrush with soft bristles.",
+    "image": "images/Electric Toothbrush.jpg"
+  },
+  {
+    "name": "Ethnic Kurta",
+    "price": 1200,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Traditional ethnic kurta made of fine cotton.",
+    "image": "images/Ethnic Kurta.jpg"
+  },
+  {
+    "name": "Exam Preparation Guide (UPSC)",
+    "price": 900,
+    "rating": 4.5,
+    "category": "Books",
+    "description": "Comprehensive UPSC exam preparation guide.",
+    "image": "images/Exam Preparation Guide (UPSC).jpg"
+  },
+  {
+    "name": "External Hard Drive 1TB",
+    "price": 4500,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "Portable 1TB external hard drive with USB 3.0.",
+    "image": "images/external hard drive 1tb.jpg"
+  },
+  {
+    "name": "Fitness Smart Band",
+    "price": 2500,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Fitness band with heart rate and sleep monitoring.",
+    "image": "images/Fitness Smart Band.jpg"
+  },
+  {
+    "name": "Football Size 5",
+    "price": 700,
+    "rating": 4.3,
+    "category": "Sports",
+    "description": "Professional size 5 football for training and matches.",
+    "image": "images/Football Size 5.jpg"
+  },
+  {
+    "name": "Formal Blazer",
+    "price": 3500,
+    "rating": 4.4,
+    "category": "Fashion",
+    "description": "Classic formal blazer for office and events.",
+    "image": "images/Formal Blazer.jpg"
+  },
+  {
+    "name": "Gaming Laptop",
+    "price": 75000,
+    "rating": 4.7,
+    "category": "Electronics",
+    "description": "High-performance gaming laptop with dedicated GPU.",
+    "image": "images/gaming laptop.jpg"
+  },
+  {
+    "name": "Gel Pen Pack (10)",
+    "price": 150,
+    "rating": 4.2,
+    "category": "Stationery",
+    "description": "Pack of 10 smooth-writing gel pens.",
+    "image": "images/Gel Pen Pack (10).jpg"
+  },
+  {
+    "name": "Green Tea Bags (100 Pack)",
+    "price": 400,
+    "rating": 4.5,
+    "category": "Groceries",
+    "description": "100-pack of premium green tea bags.",
+    "image": "images/Green Tea Bags (100 Pack).jpg"
+  },
+  {
+    "name": "Gym Dumbbell Set",
+    "price": 3200,
+    "rating": 4.4,
+    "category": "Fitness",
+    "description": "Adjustable dumbbell set for strength training.",
+    "image": "images/Gym Dumbbell Set.jpg"
+  },
+  {
+    "name": "Hair Dryer 2000W",
+    "price": 1800,
+    "rating": 4.3,
+    "category": "Personal Care",
+    "description": "Powerful 2000W hair dryer with heat settings.",
+    "image": "images/Hair Dryer 2000W.jpg"
+  },
+  {
+    "name": "Headphones",
+    "price": 2500,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "Over-ear headphones with deep bass and comfort padding.",
+    "image": "images/headphones.jpg"
+  },
+  {
+    "name": "Herbal Face Wash",
+    "price": 300,
+    "rating": 4.2,
+    "category": "Personal Care",
+    "description": "Natural herbal face wash for glowing skin.",
+    "image": "images/Herbal Face Wash.jpg"
+  },
+  {
+    "name": "High-Heeled Sandals",
+    "price": 1500,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Trendy high-heeled sandals for parties and outings.",
+    "image": "images/High-Heeled Sandals.jpg"
+  },
+  {
+    "name": "Hiking Backpack",
+    "price": 2800,
+    "rating": 4.5,
+    "category": "Outdoor",
+    "description": "Durable hiking backpack with multiple compartments.",
+    "image": "images/Hiking Backpack.jpg"
+  },
+  {
+    "name": "Home Theater Soundbar",
+    "price": 15000,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "Premium soundbar with surround sound system.",
+    "image": "images/Home Theater Soundbar.jpg"
+  },
+  {
+    "name": "Induction Cooktop",
+    "price": 3200,
+    "rating": 4.4,
+    "category": "Home Appliances",
+    "description": "Energy-efficient induction cooktop with auto shut-off.",
+    "image": "images/Induction Cooktop.jpg"
+  },
+  {
+    "name": "Kids Scooter",
+    "price": 2200,
+    "rating": 4.3,
+    "category": "Toys",
+    "description": "Lightweight and foldable scooter for kids.",
+    "image": "images/Kids Scooter.jpg"
+  },
+  {
+    "name": "Leather Belt",
+    "price": 800,
+    "rating": 4.4,
+    "category": "Fashion",
+    "description": "Genuine leather belt with metal buckle.",
+    "image": "images/Leather Belt.jpg"
+  },
+  {
+    "name": "Leather Hand Bag",
+    "price": 2500,
+    "rating": 4.5,
+    "category": "Fashion",
+    "description": "Stylish leather handbag with spacious compartments.",
+    "image": "images/leather hand bag.jpg"
+  },
+  {
+    "name": "Leather Jacket",
+    "price": 5500,
+    "rating": 4.6,
+    "category": "Fashion",
+    "description": "Classic leather jacket for all seasons.",
+    "image": "images/leather jacket.jpg"
+  },
+  {
+    "name": "LED Table Lamp",
+    "price": 1200,
+    "rating": 4.3,
+    "category": "Home Decor",
+    "description": "Energy-saving LED table lamp with adjustable brightness.",
+    "image": "images/LED Table Lamp.jpg"
+  },
+  {
+    "name": "Lego Building Blocks",
+    "price": 1800,
+    "rating": 4.6,
+    "category": "Toys",
+    "description": "Creative Lego building block set for kids.",
+    "image": "images/Lego Building Blocks.jpg"
+  },
+  {
+    "name": "Lipstick Matte Finish",
+    "price": 400,
+    "rating": 4.2,
+    "category": "Cosmetics",
+    "description": "Long-lasting matte finish lipstick in vibrant shades.",
+    "image": "images/Lipstick Matte Finish.jpg"
+  },
+  {
+    "name": "Mechanical Keyboard RGB",
+    "price": 3500,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "RGB backlit mechanical keyboard for gaming and typing.",
+    "image": "images/Mechanical Keyboard RGB.jpg"
+  },
+  {
+    "name": "Microwave Oven 20L",
+    "price": 6000,
+    "rating": 4.5,
+    "category": "Home Appliances",
+    "description": "Compact 20L microwave oven with auto-cook menus.",
+    "image": "images/Microwave Oven 20L.jpg"
+  },
+  {
+    "name": "Nail Polish Set",
+    "price": 350,
+    "rating": 4.3,
+    "category": "Cosmetics",
+    "description": "Set of vibrant nail polish colors with quick-dry formula.",
+    "image": "images/Nail Polish Set.jpg"
+  },
+  {
+    "name": "Noise Cancelling Earbuds",
+    "price": 4500,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "Wireless earbuds with active noise cancellation.",
+    "image": "images/Noise Cancelling Earbuds.jpg"
+  },
+  {
+    "name": "Non-Stick Frying Pan",
+    "price": 900,
+    "rating": 4.4,
+    "category": "Home & Kitchen",
+    "description": "Durable non-stick frying pan with ergonomic handle.",
+    "image": "images/Non-Stick Frying Pan.jpg"
+  },
+  {
+    "name": "Notebook Spiral Bound",
+    "price": 150,
+    "rating": 4.3,
+    "category": "Stationery",
+    "description": "Spiral bound notebook with 200 ruled pages.",
+    "image": "images/Notebook Spiral Bound.jpg"
+  },
+  {
+    "name": "Novel – “The Great Gatsby”",
+    "price": 350,
+    "rating": 4.6,
+    "category": "Books",
+    "description": "Classic novel 'The Great Gatsby' by F. Scott Fitzgerald.",
+    "image": "images/Novel – “The Great Gatsby”.jpg"
+  },
+  {
+    "name": "Olive Oil 1L",
+    "price": 700,
+    "rating": 4.5,
+    "category": "Groceries",
+    "description": "Premium extra virgin olive oil, 1L bottle.",
+    "image": "images/Olive Oil 1L.jpg"
+  },
+  {
+    "name": "Organic Honey 500g",
+    "price": 450,
+    "rating": 4.6,
+    "category": "Groceries",
+    "description": "Pure organic honey in a 500g jar.",
+    "image": "images/Organic Honey 500g.jpg"
+  },
+  {
+    "name": "Organic Shampoo 500ml",
+    "price": 350,
+    "rating": 4.3,
+    "category": "Personal Care",
+    "description": "Natural organic shampoo for healthy hair.",
+    "image": "images/Organic Shampoo 500ml.jpg"
+  },
+  {
+    "name": "Perfume – Eau de Parfum",
+    "price": 2200,
+    "rating": 4.5,
+    "category": "Cosmetics",
+    "description": "Long-lasting Eau de Parfum with refreshing fragrance.",
+    "image": "images/Perfume – Eau de Parfum.jpg"
+  },
+  {
+    "name": "Plastic Storage Box",
+    "price": 500,
+    "rating": 4.2,
+    "category": "Home & Kitchen",
+    "description": "Durable plastic storage box with lid.",
+    "image": "images/Plastic Storage Box.jpg"
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "price": 1800,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Compact Bluetooth speaker with powerful sound.",
+    "image": "images/Portable Bluetooth Speaker.jpg"
+  },
+  {
+    "name": "Power Bank 20000mAh",
+    "price": 2200,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "High-capacity 20000mAh portable power bank.",
+    "image": "images/Power Bank 20000mAh.jpg"
+  },
+  {
+    "name": "Pressure Cooker 5L",
+    "price": 2100,
+    "rating": 4.3,
+    "category": "Home Appliances",
+    "description": "Durable stainless steel 5L pressure cooker.",
+    "image": "images/Pressure Cooker 5L.jpg"
+  },
+  {
+    "name": "Puzzle Game Board",
+    "price": 700,
+    "rating": 4.4,
+    "category": "Toys",
+    "description": "Challenging puzzle game board for kids and adults.",
+    "image": "images/Puzzle Game Board.jpg"
+  },
+  {
+    "name": "Remote Control Car",
+    "price": 1800,
+    "rating": 4.5,
+    "category": "Toys",
+    "description": "High-speed remote control car with rechargeable battery.",
+    "image": "images/Remote Control Car.jpg"
+  },
+  {
+    "name": "Rubik’s Cube",
+    "price": 250,
+    "rating": 4.4,
+    "category": "Toys",
+    "description": "Classic Rubik’s Cube puzzle game.",
+    "image": "images/Rubik’s Cube.jpg"
+  },
+  {
+    "name": "Running Shoes",
+    "price": 2500,
+    "rating": 4.5,
+    "category": "Fashion",
+    "description": "Lightweight running shoes for sports and fitness.",
+    "image": "images/running shoes.jpg"
+  },
+  {
+    "name": "Science Textbook (Physics)",
+    "price": 600,
+    "rating": 4.5,
+    "category": "Books",
+    "description": "Comprehensive physics textbook for high school students.",
+    "image": "images/Science Textbook (Physics).jpg"
+  },
+  {
+    "name": "Self-Help Book – “Atomic Habits”",
+    "price": 500,
+    "rating": 4.7,
+    "category": "Books",
+    "description": "Bestselling self-help book 'Atomic Habits' by James Clear.",
+    "image": "images/Self-Help Book – “Atomic Habits”.jpg"
+  },
+  {
+    "name": "Silver Bracelet",
+    "price": 1200,
+    "rating": 4.4,
+    "category": "Jewelry",
+    "description": "Elegant silver bracelet with modern design.",
+    "image": "images/Silver Bracelet.jpg"
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "price": 1800,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Trendy slim fit jeans for casual wear.",
+    "image": "images/Slim Fit Jeans.jpg"
+  },
+  {
+    "name": "Smart Glasses AR",
+    "price": 15000,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "Next-gen smart AR glasses with built-in display.",
+    "image": "images/Smart Glasses AR.jpg"
+  },
+  {
+    "name": "Smart Home Voice Assistant",
+    "price": 5000,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "Smart home voice assistant with AI features.",
+    "image": "images/Smart Home Voice Assistant.jpg"
+  },
+  {
+    "name": "Smartphone Tripod Stand",
+    "price": 1200,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Adjustable tripod stand for smartphones.",
+    "image": "images/Smartphone Tripod Stand.jpg"
+  },
+  {
+    "name": "Smartwatch Series 6",
+    "price": 28000,
+    "rating": 4.7,
+    "category": "Electronics",
+    "description": "Advanced smartwatch with fitness tracking and notifications.",
+    "image": "images/Smartwatch Series 6.jpg"
+  },
+  {
+    "name": "Sofa Cushion Set",
+    "price": 1500,
+    "rating": 4.4,
+    "category": "Home Decor",
+    "description": "Soft and stylish sofa cushion set of 4.",
+    "image": "images/Sofa Cushion Set.jpg"
+  },
+  {
+    "name": "Sports Cap",
+    "price": 400,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Lightweight sports cap for outdoor activities.",
+    "image": "images/sports cap.jpg"
+  },
+  {
+    "name": "Sports Water Bottle",
+    "price": 350,
+    "rating": 4.5,
+    "category": "Fitness",
+    "description": "Durable sports water bottle with leak-proof lid.",
+    "image": "images/sports water bottle.jpg"
+  },
+  {
+    "name": "Stainless Steel Kettle",
+    "price": 1200,
+    "rating": 4.4,
+    "category": "Home Appliances",
+    "description": "1.5L stainless steel electric kettle.",
+    "image": "images/Stainless Steel Kettle.jpg"
+  },
+  {
+    "name": "Summer Floral Dress",
+    "price": 1600,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Lightweight floral dress perfect for summer.",
+    "image": "images/Summer Floral Dress.jpg"
+  },
+  {
+    "name": "Sunglasses",
+    "price": 800,
+    "rating": 4.4,
+    "category": "Fashion",
+    "description": "Trendy UV-protected sunglasses for men and women.",
+    "image": "images/sunglasses.jpg"
+  },
+  {
+    "name": "Sunscreen Lotion SPF50",
+    "price": 500,
+    "rating": 4.5,
+    "category": "Personal Care",
+    "description": "SPF50 sunscreen lotion for sun protection.",
+    "image": "images/Sunscreen Lotion SPF50.jpg"
+  },
+  {
+    "name": "Tablet 10.5 Display",
+    "price": 28000,
+    "rating": 4.6,
+    "category": "Electronics",
+    "description": "10.5-inch display tablet with high performance.",
+    "image": "images/Tablet 10.5 Display.jpg"
+  },
+  {
+    "name": "Teddy Bear Plush Toy",
+    "price": 900,
+    "rating": 4.5,
+    "category": "Toys",
+    "description": "Soft and cuddly teddy bear plush toy.",
+    "image": "images/Teddy Bear Plush Toy.jpg"
+  },
+  {
+    "name": "Tennis Ball Pack (6)",
+    "price": 450,
+    "rating": 4.4,
+    "category": "Sports",
+    "description": "Pack of 6 professional tennis balls.",
+    "image": "images/Tennis Ball Pack (6).jpg"
+  },
+  {
+    "name": "Travel Backpack",
+    "price": 2200,
+    "rating": 4.5,
+    "category": "Outdoor",
+    "description": "Durable and waterproof travel backpack.",
+    "image": "images/Travel Backpack.jpg"
+  },
+  {
+    "name": "USB Type-C Charger 30W",
+    "price": 1200,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Fast-charging 30W USB Type-C charger.",
+    "image": "images/USB Type-C Charger 30W.jpg"
+  },
+  {
+    "name": "Water Gun Toy",
+    "price": 500,
+    "rating": 4.3,
+    "category": "Toys",
+    "description": "Colorful water gun toy for kids’ outdoor fun.",
+    "image": "images/Water Gun Toy.jpg"
+  },
+  {
+    "name": "WiFi Router Dual Band",
+    "price": 3500,
+    "rating": 4.5,
+    "category": "Electronics",
+    "description": "Dual-band WiFi router with high-speed connectivity.",
+    "image": "images/WiFi Router Dual Band.jpg"
+  },
+  {
+    "name": "Wireless Mouse Pro",
+    "price": 900,
+    "rating": 4.4,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with precision tracking.",
+    "image": "images/Wireless Mouse Pro.jpg"
+  },
+  {
+    "name": "Wooden Dining Table",
+    "price": 18000,
+    "rating": 4.6,
+    "category": "Furniture",
+    "description": "Elegant 6-seater wooden dining table.",
+    "image": "images/Wooden Dining Table.jpg"
+  },
+  {
+    "name": "Woolen Scarf",
+    "price": 600,
+    "rating": 4.3,
+    "category": "Fashion",
+    "description": "Warm and soft woolen scarf for winter.",
+    "image": "images/woolen scarf.jpg"
+  },
+  {
+    "name": "Wristwatch Analog",
+    "price": 2500,
+    "rating": 4.5,
+    "category": "Fashion",
+    "description": "Classic analog wristwatch with leather strap.",
+    "image": "images/Wristwatch Analog.jpg"
+  },
+  {
+    "name": "Yoga Mat Non-Slip",
+    "price": 1000,
+    "rating": 4.5,
+    "category": "Fitness",
+    "description": "Non-slip yoga mat with comfortable cushioning.",
+    "image": "images/Yoga Mat Non-Slip.jpg"
+  }
+]
+
+
+
+
+
+
+

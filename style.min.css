@@ -1,0 +1,33 @@
+body{margin:0;font-family:Arial,sans-serif;background:#f9f9f9}
+header{background:#222;color:#fff;padding:1rem;text-align:center}
+header h1{margin:0}
+nav a{color:#fff;margin:0 10px;text-decoration:none}
+nav a:hover{text-decoration:underline}
+main{padding:20px;max-width:1200px;margin:auto}
+.controls{margin-bottom:20px;display:flex;gap:10px;flex-wrap:wrap}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.product-card{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);text-align:center;transition:transform .2s}
+.product-card:hover{transform:scale(1.03)}
+.product-card img{width:100%;height:200px;object-fit:cover;border-radius:10px}
+.product-card h3{margin:10px 0;font-size:1.1rem}
+.product-card .category{font-size:.9rem;color:#777}
+.product-card .price{font-size:1.2rem;color:#333;margin:5px 0}
+button{padding:8px 12px;margin:5px;border:none;border-radius:5px;background:#007bff;color:white;cursor:pointer}
+button:hover{background:#0056b3}
+
+/* Cart & Wishlist Product Cards */
+.cart-product, .wishlist-product{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:#fff;
+  margin-bottom:10px;
+  padding:10px;
+  border-radius:8px;
+  box-shadow:0 1px 4px rgba(0,0,0,0.1);
+}
+.cart-product img,.wishlist-product img{width:60px;height:60px;object-fit:cover;border-radius:5px;margin-right:10px;}
+.cart-product .details,.wishlist-product .details{flex:1;}
+.cart-product button,.wishlist-product button{margin-left:5px;padding:5px 8px;font-size:.85rem;}
+footer{text-align:center;padding:15px;background:#222;color:#fff;margin-top:20px}
+

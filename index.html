@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store</title>
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+      <a href="wishlist.html">Wishlist ❤️ (<span id="wishlist-count">0</span>)</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Products</h2>
+
+    <!-- Sorting & Filtering Controls -->
+    <div class="controls">
+      <label for="categoryFilter">Category:</label>
+      <select id="categoryFilter">
+        <option value="all">All</option>
+      </select>
+
+      <label for="priceSort">Sort by Price:</label>
+      <select id="priceSort">
+        <option value="default">Default</option>
+        <option value="low-high">Low → High</option>
+        <option value="high-low">High → Low</option>
+      </select>
+    </div>
+
+    <div id="product-list" class="product-grid">
+      <!-- Products will load here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store. All Rights Reserved.</p>
+  </footer>
+
+  <script src="app.min.js"></script>
+</body>
+</html>
